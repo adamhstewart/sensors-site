@@ -42,8 +42,6 @@ jobs:
       - name: Add .nojekyll file to prevent Jekyll processing
         run: cp .nojekyll public/
 
-      - name: Add CNAME for custom domain
-        run: echo "staging.triboarguildhall.com" > public/CNAME
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

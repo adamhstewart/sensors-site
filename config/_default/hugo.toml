@@ -1,0 +1,14 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'AgeWell — Support for Aging at Home'
+enableRobotsTXT = true
+
+[params]
+  description = "Privacy-first home monitoring that helps families support aging in place — without cameras, without surveillance."
+  defaultImage = "og-image.png"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true

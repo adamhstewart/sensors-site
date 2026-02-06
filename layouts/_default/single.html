@@ -1,0 +1,59 @@
+{{ define "title" }}{{ .Title }} — {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+    <!-- Header -->
+    {{ partial "header.html" . }}
+
+    <!-- Hero Section -->
+    {{ if .Params.hero_image }}
+    <section class="relative min-h-[400px] md:min-h-[500px] flex items-center">
+        <!-- Background Image -->
+        <div class="absolute inset-0 z-0">
+            <img src="{{ .Params.hero_image | relURL }}" alt="{{ .Title }}" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30"></div>
+        </div>
+
+        <!-- Content -->
+        <div class="relative z-10 max-w-4xl mx-auto px-5 py-16 w-full text-center">
+            <h1 class="font-serif text-4xl md:text-6xl font-bold text-white mb-6 leading-tight drop-shadow-lg">{{ .Title }}</h1>
+            <div class="w-20 h-1 bg-calm-blue-light mx-auto mb-8"></div>
+            {{ if .Params.description }}
+            <p class="font-sans text-xl text-gray-100 max-w-3xl mx-auto leading-relaxed drop-shadow-md">{{ .Params.description }}</p>
+            {{ end }}
+        </div>
+    </section>
+    {{ else }}
+    <section class="py-16 bg-gradient-to-br from-warm-beige to-warm-beige-dark">
+        <div class="max-w-4xl mx-auto px-5 text-center">
+            <h1 class="font-serif text-4xl md:text-5xl font-bold text-text-dark mb-6 leading-tight">{{ .Title }}</h1>
+            <div class="w-20 h-1 bg-calm-blue mx-auto mb-8"></div>
+            {{ if .Params.description }}
+            <p class="font-sans text-xl text-text-muted max-w-3xl mx-auto leading-relaxed">{{ .Params.description }}</p>
+            {{ end }}
+        </div>
+    </section>
+    {{ end }}
+
+    <!-- Page Content -->
+    <main class="py-16 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-5">
+            <div class="page-content">
+                {{ .Content }}
+            </div>
+        </div>
+    </main>
+
+    {{ if not .Params.hide_cta }}
+    <!-- Call to Action -->
+    <section class="py-16 text-white text-center bg-calm-blue-dark">
+        <div class="max-w-4xl mx-auto px-5">
+            <h3 class="font-serif text-3xl font-bold mb-6">Interested in learning more?</h3>
+            <p class="font-sans text-xl mb-8 leading-relaxed text-gray-200">Join the early access list to be the first to know when AgeWell becomes available.</p>
+            <a href="{{ "/" | relURL }}#early-access" class="font-sans bg-white text-calm-blue-dark px-8 py-4 rounded-md font-semibold no-underline hover:bg-gray-100 transition-colors text-lg">Join the Early Access List</a>
+        </div>
+    </section>
+    {{ end }}
+
+    <!-- Footer -->
+    {{ partial "footer.html" . }}
+{{ end }}

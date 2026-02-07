@@ -11,7 +11,14 @@
             </div>
             <ul class="hidden md:flex space-x-8">
                 <li><a href="{{ .Site.Home.RelPermalink }}#our-approach" class="text-text-muted font-medium no-underline hover:text-calm-blue transition-colors">How It Works</a></li>
-                <li><a href="{{ .Site.Home.RelPermalink }}#privacy" class="text-text-muted font-medium no-underline hover:text-calm-blue transition-colors">Privacy</a></li>
+                <li class="relative group">
+                    <button class="text-text-muted font-medium hover:text-calm-blue transition-colors cursor-pointer pb-4 -mb-4">Solutions</button>
+                    <ul class="absolute top-full left-0 hidden group-hover:block bg-white border border-gray-200 rounded-lg shadow-lg py-2 w-56 z-50">
+                        <li><a href="{{ "for-families" | relURL }}" class="block px-4 py-2 text-sm text-text-muted no-underline hover:bg-warm-beige hover:text-calm-blue transition-colors">Parent Living Alone</a></li>
+                        <li><a href="{{ "for-multi-resident" | relURL }}" class="block px-4 py-2 text-sm text-text-muted no-underline hover:bg-warm-beige hover:text-calm-blue transition-colors">Multiple Elders</a></li>
+                        <li><a href="{{ "for-care-providers" | relURL }}" class="block px-4 py-2 text-sm text-text-muted no-underline hover:bg-warm-beige hover:text-calm-blue transition-colors">Care Providers</a></li>
+                    </ul>
+                </li>
                 <li><a href="{{ "pricing" | relURL }}" class="text-text-muted font-medium no-underline hover:text-calm-blue transition-colors">Pricing</a></li>
                 <li><a href="{{ "about" | relURL }}" class="text-text-muted font-medium no-underline hover:text-calm-blue transition-colors">About</a></li>
             </ul>

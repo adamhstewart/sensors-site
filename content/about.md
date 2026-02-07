@@ -18,11 +18,17 @@ So we decided to build what we wished existed.
 
 ## The team
 
-**Adam Stewart** — Based in the US. Adam's background is in systems engineering and data infrastructure. When his father started forgetting meals, Adam realized that the subtle signs of change were the ones no one was tracking.
+{{< team-member name="Adam Stewart" image="https://www.gizra.com/images/team/members/adamhstewart.jpg" location="Based in the US" >}}
+Adam's background is in systems engineering and data infrastructure. When his father started forgetting meals, Adam realized that the subtle signs of change were the ones no one was tracking.
+{{< /team-member >}}
 
-**Brice Lenfant** — Based in France. Brice brings deep experience in AI and data science. His mother lives alone in southern France, and the distance between visits keeps getting harder.
+{{< team-member name="Brice Lenfant" image="https://www.gizra.com/images/team/members/bricel.jpg" location="Based in France" >}}
+Brice brings deep experience in AI and data science. His mother lives alone in southern France, and the distance between visits keeps getting harder.
+{{< /team-member >}}
 
-**Amitai Burstein** — Based in Israel. Amitai has decades of experience in software architecture and product development. With parents on the other side of the country, he knows what it feels like to hang up the phone and still not be sure everything is okay.
+{{< team-member name="Amitai Burstein" image="https://www.gizra.com/images/team/members/amitaibu.jpg" location="Based in Israel" >}}
+Amitai has decades of experience in software architecture and product development. With parents on the other side of the country, he knows what it feels like to hang up the phone and still not be sure everything is okay.
+{{< /team-member >}}
 
 ---
 

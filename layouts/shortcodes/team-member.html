@@ -1,0 +1,12 @@
+{{ $name := .Get "name" }}
+{{ $image := .Get "image" }}
+{{ $location := .Get "location" }}
+
+<div class="not-prose flex flex-col sm:flex-row items-center sm:items-start gap-6 my-8 p-6 bg-white rounded-lg shadow-sm border border-gray-100">
+  <img src="{{ $image }}" alt="{{ $name }}" class="w-24 h-24 rounded-full object-cover object-top flex-shrink-0">
+  <div style="flex:1; min-width:0;">
+    <h3 class="font-serif text-xl font-semibold text-gray-900 mb-1" style="margin:0 0 4px 0; border:none; padding:0;">{{ $name }}</h3>
+    <p style="color:#4A7C9B; font-size:0.875rem; margin:0 0 8px 0; font-weight:500;">{{ $location }}</p>
+    <p style="color:#5A6577; font-size:0.95rem; line-height:1.6; margin:0;">{{ .Inner }}</p>
+  </div>
+</div>

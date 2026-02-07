@@ -1,37 +1,58 @@
 ---
-title: "About AgeWell"
-description: "Care that respects independence — helping families support aging at home."
+title: "About Us"
+description: "Three dads, three countries, one shared challenge — caring for aging parents from afar."
 hero_image: "images/senior-couple-home.jpg"
 ---
 
-## Why this matters
+## Our story
 
-This project started with a personal question that many families face: *How do you stay connected to an aging parent's wellbeing without making them feel watched?*
+AgeWell started over a conversation that many adult children know too well: *"Have you talked to mom today? Is she eating? Is she okay?"*
 
-It's a question without easy answers. You want to know they're safe. They want to keep living on their own terms. The tools available today — cameras, medical alert pendants, daily check-in calls — each solve part of the problem, but none of them feel right for everyone.
+We're Adam, Brice, and Amitai — three software engineers in our late 40s and early 50s, each navigating the same challenge. Our parents are aging. They live independently. And we worry.
 
----
+We tried the usual solutions: daily phone calls (that felt like check-ups), cameras (that felt invasive), medical alert pendants (that sat in drawers). Nothing felt right — not for our parents, and not for us.
 
-## A software background, a human problem
-
-AgeWell is built by a team with deep experience in software engineering, data analysis, and systems design. But this isn't a technology company looking for a problem to solve. It's the other way around.
-
-We saw a gap between what families need and what's currently available, and we believe thoughtful engineering can bridge it.
+So we decided to build what we wished existed.
 
 ---
 
-## A thoughtful approach
+## The team
 
-We're not racing to ship the most feature-packed product. We're building something that works quietly, reliably, and respectfully.
+{{< team-member name="Adam Stewart" image="https://www.gizra.com/images/team/members/adamhstewart.jpg" >}}
+Adam's background is in systems engineering and data infrastructure. When his father started forgetting meals, Adam realized that the subtle signs of change were the ones no one was tracking.
+{{< /team-member >}}
 
-- **Simple hardware.** Small, discreet sensors that blend into a home.
-- **Meaningful insights.** Pattern-based awareness, not minute-by-minute surveillance.
-- **Gradual rollout.** We're starting with a small number of early households to learn and refine before scaling.
+{{< team-member name="Brice Lenfant" image="https://www.gizra.com/images/team/members/bricel.jpg" >}}
+Brice brings deep experience in AI and data science. His mother lives alone in southern France, and the distance between visits keeps getting harder.
+{{< /team-member >}}
+
+{{< team-member name="Amitai Burstein" image="https://www.gizra.com/images/team/members/amitaibu.jpg" >}}
+Amitai has decades of experience in software architecture and product development. With parents on the other side of the country, he knows what it feels like to hang up the phone and still not be sure everything is okay.
+{{< /team-member >}}
 
 ---
 
-## Our commitment to privacy
+## Built on real expertise
 
-Privacy isn't a feature we've bolted on — it's the foundation. No cameras. No audio. No tracking of specific actions or conversations. We believe you can provide peace of mind without compromising dignity, and every decision we make reflects that belief.
+AgeWell is built by the team behind [Gizra](https://www.gizra.com) — a company with over a decade of experience creating complex solutions that simplify things. From large-scale data systems to intuitive user experiences, we've spent our careers making technology disappear into usefulness. AgeWell is the most personal product we've ever built.
 
-We're building AgeWell for real families navigating a real challenge, and we take that responsibility seriously.
+---
+
+## What drives us
+
+We're not a big tech company. We're three dads who share a personal stake in getting this right.
+
+We believe technology should be invisible and respectful — it should ease worry without creating new problems. Every feature we build, every decision we make, starts with one question: *Would we be comfortable installing this in our own parents' home?*
+
+If the answer isn't a clear yes, we go back to the drawing board.
+
+---
+
+## Our approach
+
+- **Privacy is non-negotiable.** No cameras. No microphones. No surveillance. Ever.
+- **AI that helps, not watches.** Our system learns daily patterns and only surfaces meaningful changes.
+- **Built for real families.** We're not chasing features. We're solving a problem we live with every day.
+- **Honest pricing.** Hardware near cost. A subscription that funds real value. No hidden upsells.
+
+We're building AgeWell for families like ours — and we take that responsibility seriously.

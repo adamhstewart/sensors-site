@@ -33,4 +33,4 @@ AgeWell is designed for families who want a respectful, non-invasive way to stay
 
 ### When will it be available?
 
-We are currently preparing for our initial launch with a limited number of early households. Join our [early access list](/#early-access) to be notified when availability begins in your area.
+We are currently preparing for our initial launch with a limited number of pilot households. Join our [pilot waitlist](/#early-access) to be notified when availability begins in your area.

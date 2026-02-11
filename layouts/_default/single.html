@@ -10,15 +10,15 @@
         <!-- Background Image -->
         <div class="absolute inset-0 z-0">
             <img src="{{ .Params.hero_image | relURL }}" alt="{{ .Title }}" class="w-full h-full object-cover">
-            <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30"></div>
+            <div class="absolute inset-0 bg-gradient-to-r from-white/95 via-white/80 to-white/60"></div>
         </div>
 
         <!-- Content -->
         <div class="relative z-10 max-w-4xl mx-auto px-5 py-16 w-full text-center">
-            <h1 class="font-serif text-4xl md:text-6xl font-bold text-white mb-6 leading-tight drop-shadow-lg">{{ .Title }}</h1>
-            <div class="w-20 h-1 bg-calm-blue-light mx-auto mb-8"></div>
+            <h1 class="font-serif text-4xl md:text-6xl font-bold text-text-dark mb-6 leading-tight">{{ .Title }}</h1>
+            <div class="w-20 h-1 bg-calm-blue mx-auto mb-8"></div>
             {{ if .Params.description }}
-            <p class="font-sans text-xl text-gray-100 max-w-3xl mx-auto leading-relaxed drop-shadow-md">{{ .Params.description }}</p>
+            <p class="font-sans text-xl text-text-muted max-w-3xl mx-auto leading-relaxed">{{ .Params.description }}</p>
             {{ end }}
         </div>
     </section>
@@ -35,9 +35,9 @@
     {{ end }}
 
     <!-- Page Content -->
-    <main class="py-16 bg-gray-50">
+    <main class="py-16 bg-gradient-to-b from-gray-50 to-white">
         <div class="max-w-4xl mx-auto px-5">
-            <div class="page-content">
+            <div class="page-content bg-white rounded-2xl border border-gray-100 shadow-sm p-6 md:p-10">
                 {{ .Content }}
             </div>
         </div>
@@ -47,9 +47,9 @@
     <!-- Call to Action -->
     <section class="py-16 text-white text-center bg-calm-blue-dark">
         <div class="max-w-4xl mx-auto px-5">
-            <h3 class="font-serif text-3xl font-bold mb-6">Interested in learning more?</h3>
-            <p class="font-sans text-xl mb-8 leading-relaxed text-gray-200">Join the early access list to be the first to know when AgeWell becomes available.</p>
-            <a href="{{ "/" | relURL }}#early-access" class="font-sans bg-white text-calm-blue-dark px-8 py-4 rounded-md font-semibold no-underline hover:bg-gray-100 transition-colors text-lg">Join the Early Access List</a>
+            <h3 class="font-serif text-3xl font-bold mb-6">Interested in pilot access?</h3>
+            <p class="font-sans text-xl mb-8 leading-relaxed text-gray-200">Join the waitlist and we will contact you when we open new households.</p>
+            <a href="{{ "/" | relURL }}#early-access" class="font-sans bg-white text-calm-blue-dark px-8 py-4 rounded-md font-semibold no-underline hover:bg-gray-100 transition-colors text-lg">Join the Pilot Waitlist</a>
         </div>
     </section>
     {{ end }}

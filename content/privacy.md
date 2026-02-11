@@ -47,4 +47,4 @@ We're building this for families, and that includes the aging parent at the cent
 
 ## Questions?
 
-If you have questions about our privacy practices or security measures, please don't hesitate to reach out through our [early access form](/#early-access) or contact us directly.
+If you have questions about our privacy practices or security measures, please reach out through our [early access form](/#early-access). Include your question and we will follow up directly.

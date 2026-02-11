@@ -76,4 +76,4 @@ When a family member writes *"@AgeWellBot dad had a rough night"* or *"@AgeWellB
 
 We're currently working with a select number of care providers for our initial rollout. If you're interested in bringing AgeWell to your facility, we'd love to hear from you.
 
-Contact us to discuss volume pricing, pilot programs, and integration with your existing care workflows.
+[Join the pilot inquiry form](/#early-access) and choose **Care provider** so we can discuss volume pricing, pilot programs, and integration with your existing care workflows.

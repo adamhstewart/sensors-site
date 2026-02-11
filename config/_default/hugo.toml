@@ -6,6 +6,8 @@ enableRobotsTXT = true
 [params]
   description = "Privacy-first home monitoring that helps families support aging in place — without cameras, without surveillance."
   defaultImage = "og-image.png"
+  leadFormAction = ""
+  contactEmail = ""
 
 [markup]
   [markup.goldmark]

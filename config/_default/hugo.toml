@@ -1,6 +1,6 @@
 baseURL = '/'
 languageCode = 'en-us'
-title = 'AgeWell — Support for Aging at Home'
+title = 'NiaVico — Support for Aging at Home'
 enableRobotsTXT = true
 
 [params]

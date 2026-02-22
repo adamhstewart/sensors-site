@@ -7,7 +7,7 @@ layout: "setup"
 
 ## How setup works
 
-AgeWell is designed to be simple for families and respectful for older adults. You receive a ready-to-use kit, place the monitors in key spots, and confirm everything from your mobile phone.
+NiaVico is designed to be simple for families and respectful for older adults. You receive a ready-to-use kit, place the monitors in key spots, and confirm everything from your mobile phone.
 
 ---
 
@@ -55,4 +55,4 @@ You are never left to figure it out alone.
 
 ## What you can expect after setup
 
-Once connected, AgeWell starts learning daily patterns and sends meaningful updates when something changes. You get reassurance without surveillance, and support is available whenever you need it.
+Once connected, NiaVico starts learning daily patterns and sends meaningful updates when something changes. You get reassurance without surveillance, and support is available whenever you need it.

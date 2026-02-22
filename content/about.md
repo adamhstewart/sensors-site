@@ -6,7 +6,7 @@ hero_image: "images/senior-couple-home.jpg"
 
 ## Our story
 
-AgeWell started over a conversation that many adult children know too well: *"Have you talked to mom today? Is she eating? Is she okay?"*
+NiaVico started over a conversation that many adult children know too well: *"Have you talked to mom today? Is she eating? Is she okay?"*
 
 We're Adam, Brice, and Amitai — three software engineers in our late 40s and early 50s, each navigating the same challenge. Our parents are aging. They live independently. And we worry.
 
@@ -34,7 +34,7 @@ Amitai has decades of experience in software architecture and product developmen
 
 ## Built on real expertise
 
-AgeWell is built by the team behind [Gizra](https://www.gizra.com) — a company with over a decade of experience creating complex solutions that simplify things. From large-scale data systems to intuitive user experiences, we've spent our careers making technology disappear into usefulness. AgeWell is the most personal product we've ever built.
+NiaVico is built by the team behind [Gizra](https://www.gizra.com) — a company with over a decade of experience creating complex solutions that simplify things. From large-scale data systems to intuitive user experiences, we've spent our careers making technology disappear into usefulness. NiaVico is the most personal product we've ever built.
 
 ---
 
@@ -55,4 +55,4 @@ If the answer isn't a clear yes, we go back to the drawing board.
 - **Built for real families.** We're not chasing features. We're solving a problem we live with every day.
 - **Honest pricing.** Hardware near cost. A subscription that funds real value. No hidden upsells.
 
-We're building AgeWell for families like ours — and we take that responsibility seriously.
+We're building NiaVico for families like ours — and we take that responsibility seriously.

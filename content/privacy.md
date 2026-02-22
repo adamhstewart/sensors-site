@@ -1,11 +1,11 @@
 ---
 title: "Privacy & Security"
-description: "How AgeWell protects the privacy and dignity of the people who matter most."
+description: "How NiaVico protects the privacy and dignity of the people who matter most."
 ---
 
 ## Wellness, not medical
 
-AgeWell is a **wellness monitoring system**, not a medical device. It is designed to help families stay aware of routine changes in an aging parent's daily patterns. It does not diagnose conditions, provide medical advice, or replace professional healthcare.
+NiaVico is a **wellness monitoring system**, not a medical device. It is designed to help families stay aware of routine changes in an aging parent's daily patterns. It does not diagnose conditions, provide medical advice, or replace professional healthcare.
 
 If you have concerns about a loved one's health, always consult with a qualified healthcare provider.
 
@@ -13,7 +13,7 @@ If you have concerns about a loved one's health, always consult with a qualified
 
 ## No cameras. No audio. Ever.
 
-This is not negotiable. AgeWell will never include cameras, microphones, or any form of audio or video recording. Our sensors detect motion and entry events only — nothing more.
+This is not negotiable. NiaVico will never include cameras, microphones, or any form of audio or video recording. Our sensors detect motion and entry events only — nothing more.
 
 We believe meaningful awareness doesn't require surveillance.
 
@@ -31,7 +31,7 @@ All sensor data is encrypted in transit and at rest. We use industry-standard en
 
 ## Behavioral trends, not granular tracking
 
-AgeWell does not create a detailed log of every movement in the home. Instead, it identifies patterns over time and surfaces meaningful changes — like a shift in morning routine or an unusual period of inactivity.
+NiaVico does not create a detailed log of every movement in the home. Instead, it identifies patterns over time and surfaces meaningful changes — like a shift in morning routine or an unusual period of inactivity.
 
 You'll see trends and summaries, not a second-by-second feed.
 

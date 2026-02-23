@@ -1,7 +1,37 @@
-<footer class="bg-gray-800 text-white py-8">
+<footer class="bg-gray-800 text-white py-12">
     <div class="max-w-6xl mx-auto px-5">
-        <div class="text-center text-gray-400">
-            &copy; {{ now.Year }} NiaVico &middot; <a href="{{ "about" | relURL }}" class="text-gray-400 no-underline hover:text-white">About</a> &middot; <a href="{{ "who-its-for" | relURL }}" class="text-gray-400 no-underline hover:text-white">Who It's For</a> &middot; <a href="{{ "pricing" | relURL }}" class="text-gray-400 no-underline hover:text-white">Pricing</a> &middot; <a href="{{ "privacy" | relURL }}" class="text-gray-400 no-underline hover:text-white">Privacy &amp; Security</a> &middot; <a href="{{ "faq" | relURL }}" class="text-gray-400 no-underline hover:text-white">FAQ</a>
+        <div class="flex flex-col md:flex-row gap-8">
+
+            <div class="order-4 md:order-1 md:flex-1">
+                <p class="font-sans text-gray-400 text-sm">&copy; {{ now.Year }} NiaVico</p>
+                <p class="font-sans text-gray-500 text-xs mt-1">Built with respect for dignity and independence.</p>
+            </div>
+
+            <div class="order-1 md:order-2 md:flex-1">
+                <p class="font-sans text-sm font-semibold text-gray-300 mb-3">Product</p>
+                <ul class="space-y-2">
+                    <li><a href="{{ .Site.Home.RelPermalink }}" class="font-sans text-sm text-gray-400 no-underline hover:text-white transition-colors">Home</a></li>
+                    <li><a href="{{ "who-its-for" | relURL }}" class="font-sans text-sm text-gray-400 no-underline hover:text-white transition-colors">Who It's For</a></li>
+                    <li><a href="{{ "setup" | relURL }}" class="font-sans text-sm text-gray-400 no-underline hover:text-white transition-colors">How It Works</a></li>
+                    <li><a href="{{ "pricing" | relURL }}" class="font-sans text-sm text-gray-400 no-underline hover:text-white transition-colors">Pricing</a></li>
+                </ul>
+            </div>
+
+            <div class="order-2 md:order-3 md:flex-1">
+                <p class="font-sans text-sm font-semibold text-gray-300 mb-3">Company</p>
+                <ul class="space-y-2">
+                    <li><a href="{{ "about" | relURL }}" class="font-sans text-sm text-gray-400 no-underline hover:text-white transition-colors">About</a></li>
+                    <li><a href="{{ "privacy" | relURL }}" class="font-sans text-sm text-gray-400 no-underline hover:text-white transition-colors">Privacy &amp; Security</a></li>
+                    <li><a href="{{ "faq" | relURL }}" class="font-sans text-sm text-gray-400 no-underline hover:text-white transition-colors">FAQ</a></li>
+                </ul>
+            </div>
+
+            <div class="order-3 md:order-4 md:flex-1">
+                <p class="font-sans text-sm font-semibold text-gray-300 mb-3">Contact</p>
+                <ul class="space-y-2">
+                    <li><a href="mailto:hello@niavico.com" class="font-sans text-sm text-gray-400 no-underline hover:text-white transition-colors">hello@niavico.com</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 </footer>

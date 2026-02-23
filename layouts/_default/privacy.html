@@ -1,0 +1,25 @@
+{{ define "title" }}{{ .Title }} — {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+    {{ partial "header.html" . }}
+
+    <section class="py-16 bg-gradient-to-br from-warm-beige to-warm-beige-dark">
+        <div class="max-w-4xl mx-auto px-5 text-center">
+            <h1 class="font-serif text-4xl md:text-6xl font-bold text-text-dark mb-6 leading-tight">{{ .Title }}</h1>
+            <div class="w-20 h-1 bg-calm-blue mx-auto mb-8"></div>
+            {{ if .Params.description }}
+            <p class="font-sans text-xl text-text-muted max-w-3xl mx-auto leading-relaxed">{{ .Params.description }}</p>
+            {{ end }}
+        </div>
+    </section>
+
+    <main class="py-10 bg-gray-50">
+        <div class="max-w-3xl mx-auto px-5">
+            <div class="page-content privacy-content">
+                {{ .Content }}
+            </div>
+        </div>
+    </main>
+
+    {{ partial "footer.html" . }}
+{{ end }}

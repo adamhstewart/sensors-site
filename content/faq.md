@@ -1,35 +1,49 @@
 ---
 title: "Frequently Asked Questions"
-description: "Common questions about NiaVico, how it works, and what to expect."
+description: "Clear answers about how NiaVico works and what to expect."
 ---
-
-## FAQ
-
-Find answers to common questions about NiaVico below.
-
-### Is this a medical device?
-
-No. NiaVico is a wellness monitoring system designed to help families stay aware of changes in an aging parent's daily routine. It is not a medical device, does not provide diagnoses, and should not be used as a substitute for professional medical care.
-
-### Does it detect falls?
-
-NiaVico is not designed as a fall detection system. It monitors patterns of movement and daily routines over time. While a significant change in activity could be surfaced as an alert, we do not position this as a fall detection or emergency response tool.
-
-### Does it use cameras?
-
-No. NiaVico will never use cameras or any form of video recording. Our system relies entirely on motion and entry sensors. Privacy and dignity are foundational to everything we build.
-
-### Does it use audio recording?
-
-No. There are no microphones or audio capture devices of any kind. We do not record, process, or transmit any audio data.
-
-### Does it call emergency services?
-
-No. NiaVico does not contact emergency services, dispatch responders, or act as a personal emergency response system (PERS). It provides awareness and notifications to designated family members, who can then take appropriate action.
 
 ### Who is this designed for?
 
-NiaVico is designed for families who want a respectful, non-invasive way to stay connected to an aging parent's wellbeing. It's especially suited for situations where a parent lives independently and family members want quiet reassurance that daily routines are on track.
+NiaVico is designed for families who want a respectful, non-invasive way to stay connected to an aging parent's wellbeing. It is especially suited for situations where a parent lives independently and family members want reassurance that daily routines are on track — without cameras or constant monitoring.
+
+### Is this a medical device?
+
+No. NiaVico is a wellness monitoring system. It does not provide diagnoses, medical advice, or emergency response services, and it is not a substitute for professional medical care.
+
+### Does it detect falls?
+
+NiaVico is not a fall detection system. It monitors patterns of movement and daily routines over time. A significant change in activity may be surfaced as an alert, but it is not designed to function as an emergency response tool.
+
+### Does it call emergency services?
+
+No. NiaVico does not contact emergency services or dispatch responders. It provides notifications to designated family members, who can then decide how to respond.
+
+### Will my parent feel monitored?
+
+NiaVico is designed to feel invisible. There are no cameras, no audio recording, and no constant notifications.
+
+The system quietly learns daily routines and only surfaces meaningful changes over time. Most parents forget the sensors are even there — while families gain reassurance without intrusion.
+
+### Is it difficult to install?
+
+No. NiaVico is designed for simple, guided setup.
+
+Sensors are placed in key areas like the kitchen, bathroom, or front door, and connection status is clearly visible on your phone. If anything needs adjustment, our team can provide remote support to help you get up and running quickly.
+
+### Can multiple family members receive updates?
+
+Yes. NiaVico is built for shared care. Designated family members can receive insights and stay aligned without overwhelming each other with constant messages.
+
+One system. Shared reassurance.
+
+### Does it use cameras?
+
+No. NiaVico does not use cameras or video recording of any kind. The system relies entirely on discreet motion and entry sensors.
+
+### Does it use audio recording?
+
+No. There are no microphones or audio capture devices. NiaVico does not record, process, or transmit audio data.
 
 ### When will it be available?
 

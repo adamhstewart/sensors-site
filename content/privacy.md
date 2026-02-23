@@ -1,50 +1,64 @@
 ---
 title: "Privacy & Security"
-description: "How NiaVico protects the privacy and dignity of the people who matter most."
+description: "Privacy is not a feature of NiaVico. It is the foundation."
+layout: "privacy"
 ---
 
-## Wellness, not medical
+## What We Don't Collect
 
-NiaVico is a **wellness monitoring system**, not a medical device. It is designed to help families stay aware of routine changes in an aging parent's daily patterns. It does not diagnose conditions, provide medical advice, or replace professional healthcare.
+NiaVico does not use cameras or microphones. We do not record video, capture audio, track precise location, or monitor personal conversations.
 
-If you have concerns about a loved one's health, always consult with a qualified healthcare provider.
+- No cameras or video recording
+- No microphones or audio capture
+- No location tracking
+- No conversation monitoring
 
----
-
-## No cameras. No audio. Ever.
-
-This is not negotiable. NiaVico will never include cameras, microphones, or any form of audio or video recording. Our sensors detect motion and entry events only — nothing more.
-
-We believe meaningful awareness doesn't require surveillance.
-
----
-
-## Data encryption
-
-All sensor data is encrypted in transit and at rest. We use industry-standard encryption protocols to ensure that your family's information remains private and secure.
-
-- **In transit:** All data transmitted from sensors to our servers is encrypted using TLS.
-- **At rest:** Stored data is encrypted using AES-256 encryption.
-- **Access controls:** Only authorized family members can view their household's data.
+NiaVico does not watch or listen. Ever.
 
 ---
 
-## Behavioral trends, not granular tracking
+## What We Do Collect
 
-NiaVico does not create a detailed log of every movement in the home. Instead, it identifies patterns over time and surfaces meaningful changes — like a shift in morning routine or an unusual period of inactivity.
+NiaVico uses discreet motion and entry sensors to understand patterns of activity within a home.
 
-You'll see trends and summaries, not a second-by-second feed.
+We collect:
 
----
+- Motion and entry signals (for example, movement detected or a door opened)
+- Device connection status
+- Basic system performance data
 
-## Respect for dignity
-
-Every design decision we make starts with a simple question: *Would the person being monitored feel comfortable with this?*
-
-We're building this for families, and that includes the aging parent at the center. Their dignity, autonomy, and comfort are not secondary considerations — they are the primary ones.
+We do not collect detailed behavior logs, personal content, or identifiable in-home events beyond these simple sensor signals.
 
 ---
 
-## Questions?
+## How Data Is Used
 
-If you have questions about our privacy practices or security measures, please don't hesitate to reach out through our [early access form](/#early-access) or contact us directly.
+Sensor activity is analyzed over time to understand daily routines and detect meaningful changes. Our system looks for shifts in patterns — not minute-by-minute activity.
+
+When something changes from what is typical, NiaVico may generate a notification to designated family members.
+
+We do not sell personal data. We do not use in-home activity for advertising, and we do not share data with third parties for marketing purposes.
+
+---
+
+## Data Security
+
+We apply modern security best practices to protect data in transit and at rest. Access to system data is restricted and monitored, and systems are regularly updated and maintained.
+
+Only authorized family members and designated users can access home insights.
+
+---
+
+## Not a Medical Device
+
+NiaVico is a wellness monitoring system. It does not diagnose conditions, provide medical advice, or replace professional care. It is designed to complement — not replace — hands-on support.
+
+---
+
+## Our Commitment
+
+We built NiaVico for our own families. Reassurance should never come at the cost of dignity. If a feature compromises privacy, we don't ship it.
+
+If you have questions about privacy or data handling, please contact us at:
+
+**privacy@niavico.com**

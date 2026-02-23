@@ -1,9 +1,5 @@
-<div class="flex flex-col md:flex-row gap-6 items-start mb-8">
-    <div class="flex-shrink-0">
-        <img src="{{ .Get `image` }}" alt="{{ .Get `name` }}" class="w-24 h-24 rounded-full object-cover">
-    </div>
-    <div class="flex-1">
-        <h3 class="font-serif text-xl font-semibold text-text-dark mb-2 mt-0 border-none pb-0">{{ .Get `name` }}</h3>
-        <p class="font-sans text-text-muted">{{ .Inner }}</p>
-    </div>
+<div class="text-center">
+    <img src="{{ .Get `image` | relURL }}" alt="{{ .Get `name` }}" class="w-32 h-32 rounded-full object-cover mx-auto mb-3">
+    <h3 class="font-serif text-lg font-semibold text-text-dark mb-1 mt-0 border-none pb-0">{{ .Get `name` }}</h3>
+    <p class="font-sans text-sm text-text-muted">{{ .Inner }}</p>
 </div>

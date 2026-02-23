@@ -1,7 +1,9 @@
 ---
 title: "Privacy & Security"
 description: "Privacy is not a feature of NiaVico. It is the foundation."
-layout: "privacy"
+narrow: true
+content_class: "privacy-content"
+hide_cta: true
 ---
 
 ## What We Don't Collect
